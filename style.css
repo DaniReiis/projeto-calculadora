@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: url(https://images8.alphacoders.com/595/thumb-1920-595000.jpg);
+    height: 100vh;
+    color: rgb(138, 138, 138);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.calc {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.7px);
+    -webkit-backdrop-filter: blur(10.7px);
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(78, 77, 77);
+    border: none;
+    color: rgb(129, 129, 129);
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+#resultado {
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+#name {
+    padding-top: 37%;
+    font-size: 17px;
+}
